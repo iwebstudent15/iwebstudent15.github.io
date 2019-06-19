@@ -4,7 +4,7 @@
 
 body {
     margin:0;
-    font-family: sans-serif;
+    font-family: cursive;
     
 }
 
@@ -80,7 +80,7 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background: darkred;
+    background: lightsteelblue;
     min-height: 50vh;
     color: white;
 }
