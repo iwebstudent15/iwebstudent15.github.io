@@ -4,6 +4,7 @@
 
 body {
     margin:0;
+    padding: 0;
     font-family: sans-serif;
     
 }
@@ -56,7 +57,7 @@ nav a {
 /* FOOTER */
 footer {
     border-top: 1px solid #ddd;
-    max-width: 100px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 footer nav ul {
@@ -109,4 +110,29 @@ section {
     .lists {
         grid-template-columns: 1fr 1fr;
     }
+}
+
+/* SUB PAGES */
+.page-sub .hero {
+    min-height: 30vh;
+    background: #888
+ 
+}
+
+/* BLOG Archives */
+
+.blog-archives {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.blog-entry {
+    border: 1px solid #ddd;
+    padding: 2em;
+    margin: 2em 0;
+}
+
+.date {
+    opacity: .5;
+    font-size: .8em;
 }
