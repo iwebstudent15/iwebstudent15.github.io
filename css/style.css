@@ -5,24 +5,24 @@
 body {
     margin:0;
     padding: 0;
-    font-family: sans-serif;
+    font-family:annie use your telescope;
     
 }
 
 a{
     text-decoration: none;
-    color: darkred;
+    color: #aed4e6;
 }
 
 /* HEADER*/
 header {
-    background: black;
-    color: white;
-    padding: 1em 2em;
+    padding: 1em;
+    color: #aed4e6;
 }
+    
 
 header a {
-    color: white;
+    color: #aed4e6;
 }
 
 header {
@@ -56,7 +56,7 @@ nav a {
 
 /* FOOTER */
 footer {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -81,8 +81,6 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background: darkred;
-    min-height: 50vh;
     color: white;
 }
 
@@ -90,11 +88,18 @@ section {
     font-size: 6em;
     text-transform: uppercase;
     margin: 0 auto;
+    
 }
 
 .hero p {
     max-width: 600px;
     margin: 1em auto;
+}
+
+.page-home .hero {
+    background-image: url(https://picsum.photos/id/645/1600/800);
+    background-position: center bottom;
+    background-size: cover;
 }
 
 /* Lists */
@@ -115,7 +120,7 @@ section {
 /* SUB PAGES */
 .page-sub .hero {
     min-height: 30vh;
-    background: #888
+    background: #aed4e6;
  
 }
 
